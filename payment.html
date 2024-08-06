@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="stylepay.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="get">
+        <p class="main-heading"><h1>Payment Form</h1></p><hr>
+        <h2>Contect Information</h2>
+        <p>Name : <input type="text" ></p>
+        <fieldset>
+            <legend>Gender</legend>
+       
+        <p> Male : <input type="radio" name="my gender" id="male">
+            Female : <input type="radio" name="my gender" id="female">
+        </p>
+    </fieldset>
+    <p>Address : <textarea name="Address" id="Address" cols="100" rows="7"></textarea>
+    </p>
+    <p>Email : <input type="email" name="My email" id="email"></p>
+    <p>Pincode <input type="number" name="pincode" id="pincode"></p>
+    <hr>
+
+    <h2>Payment Information</h2>
+    <fieldset>
+    <p>
+        Pay with:
+        GPay:<input type="radio" name="UPI" id="GPay">
+        PhonePe:<input type="radio" name="UPI" id="PhonePe">
+        PayTM:<input type="radio" name="UPI" id="PayTM">
+        UPI ID: <input type="text" name="UPI" id="UPI_ID">
+        <p>OR</p>
+        Select Card:
+        <select name="card type" id="card_type">
+            <option value="" select a card></option>
+            <option value="debit card">Debit card</option>
+            <option value="mastercard">Master card</option>
+            <option value="creditcard">Credit card</option>
+            <option value="UPI">UPI</option>
+        </select>
+        Card Type:
+        <select name="card_type" id="card_type">
+            <option value="">Select Card Type</option>
+            <option value="Visa">Visa</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Mastercard">MasterCard</option>
+        </select>
+        Card No. : <input type="number">
+        Expiration Date: <input type="date">
+        CVV: <input type="number">
+    </p></fieldset>
+    <p><input type="submit" value="PAY NOW"></p>
+
+    </form></div>
+</body>
+</html>
